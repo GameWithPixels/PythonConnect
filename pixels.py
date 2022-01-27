@@ -99,7 +99,7 @@ class MessageType(IntEnum):
 
 class PixelLink:
     """
-    Connection to a specific Pixel dice other Bluetooth
+    Connection to a specific Pixel dice over Bluetooth
     This class is not thread safe (because bluepy.btle.Peripheral is not)
     """
 
